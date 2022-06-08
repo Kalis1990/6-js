@@ -31,4 +31,4 @@ skaicius = skaicius + 3;
 skaicius = skaicius + 5;
 skaicius += 3;
 skaicius *= 3;
-console.log('skaicius:', skaicius)
+console.log('skaicius:', skaicius);

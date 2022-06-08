@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev":"nodemon",
+    "number": "nodemon ./js/number.js",
+    "string": "nodemon ./js/string.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
