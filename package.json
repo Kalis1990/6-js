@@ -13,6 +13,8 @@
     "nd": "nodemon ./js/nd.js",
     "ternary": "nodemon ./js/ternary.js",
     "for": "nodemon ./js/for.js",
+    "arrow": "nodemon ./js/arrow.js",
+    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
