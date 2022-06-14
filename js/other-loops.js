@@ -86,4 +86,26 @@ const devReduce20 = marks.reduce((total, mark) => total / mark, 20);
 console.log(devReduce)
 console.log(devReduce20)
 
+//sort
+console.log('---------sort------------')
+const list = [10, 2, 8, 4, 6, 1, 7, 23, 17];
+const numsort = [...list].sort();
+const minMaxList = [...list].sort((a, b) => a - b);
+const minMinList = [...list].sort((a, b) => b - a);
+console.log(list);
+console.log(numsort);
+console.log(minMaxList);
+console.log(minMinList);
+
+
+const stringlist = ['a', 'b', 'c', 'de', 'a', 'at'];
+const stringsort = [...stringlist].sort();
+const minMaxStrings = [...stringlist].sort((a, b) => a > b ? -1:1);
+const minMinStrings = [...stringlist].sort((a, b) => b < a ? -1:1);
+console.log(stringlist);
+console.log(stringsort);
+console.log('max', minMaxStrings);
+console.log('min', minMinStrings);
+
+
 
