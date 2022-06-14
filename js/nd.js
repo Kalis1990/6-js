@@ -60,3 +60,164 @@ console.log(verte);
 
 // Sujungti sąrašų vertes, kurių tipas yra tekstai, nuo sąrašo galo iki pradžios taip, 
 //jog tarp jų būtų kablelis ir tarpas
+
+const textReturn = t3[4] + ', ' + t3[3] + ', ' + t3[2] + ', ' + t3[1] + ', ' + t3[0]+ ', ' + t2[4] + ', ' + t2[3] + ', ' + t2[2] + ', ' + t2[1] + ', ' + t2[0] + ', ' + t1[4] + ', ' + t1[3] + ', ' + t1[2] + ', ' + t1[1] + ', ' + t3[0] + '. ';
+console.log(textReturn);
+
+console.log('---------------------------');
+
+// Lyginant, jei rezultatas tenkina palyginimo sąlygą, tai į console išvesti žodį “Pomidoras”, o jei sąlyga nėra tenkinama, išvesti sakinį “Bandykite kitą kartą.
+
+const pomidoras = 77;
+const bandyk = 55;
+
+if (pomidoras > bandyk) {
+    console.log('pomidoras')
+} else{
+    console.log('bandyk dar karta')
+};
+console.log('-----------------------')
+if (pomidoras < bandyk) {
+    console.log('pomidoras')
+} else{
+    console.log('bandyk dar karta')
+};
+console.log('-----------------------')
+if (pomidoras === bandyk) {
+    console.log('pomidoras')
+} else{
+    console.log('bandyk dar karta')
+}
+console.log('-----------------------')
+if (pomidoras !== bandyk) {
+    console.log('pomidoras')
+} else{
+    console.log('bandyk dar karta')
+}
+console.log('-----------------------')
+if (pomidoras >= bandyk) {
+    console.log('pomidoras')
+} else{
+    console.log('bandyk dar karta')
+};
+console.log('-----------------------')
+if (pomidoras <= bandyk) {
+    console.log('pomidoras')
+} else{
+    console.log('bandyk dar karta')
+};
+console.log('---------ZODZIAI--------------')
+// Išvesti teksto tipo kintamųjų ilgius
+// Tarpusavyje palyginti teksto tipo kintamųjų ilgius:
+
+
+const zodis1 = 'zmogus';
+const zodis2 = 'konstruktorius';
+const rez1 = zodis1.length;
+const rez2 = zodis2.length;
+console.log(rez1);
+console.log(rez2);
+
+if (rez1 > rez2) {
+    console.log('pomidoras');
+} else{
+    console.log('bandyk dar karta')
+};
+console.log('-----------------------')
+if (rez1 < rez2) {
+    console.log('pomidoras')
+} else{
+    console.log('bandyk dar karta')
+};
+console.log('-----------------------')
+if (rez1 === rez2) {
+    console.log('pomidoras')
+} else{
+    console.log('bandyk dar karta')
+}
+console.log('-----------------------')
+if (rez1 !== rez2) {
+    console.log('pomidoras')
+} else{
+    console.log('bandyk dar karta')
+}
+console.log('-----------------------')
+if (rez1 >= rez2) {
+    console.log('pomidoras')
+} else{
+    console.log('bandyk dar karta')
+};
+console.log('-----------------------')
+if (rez1 <= rez2) {
+    console.log('pomidoras')
+} else{
+    console.log('bandyk dar karta')
+};
+console.log('-----------------------')
+
+// Tarpusavyje palyginti sąrašo tipo kintamųjų ilgius:
+
+const sarasas1 = [1, 2, 3, 4, 5];
+const sarasas2 = [3, 4, 5, 6, 7];
+let sumasarasas1 = 0;
+for(let i = 0; i < sarasas1.length; i++){
+    sumasarasas1 += sarasas1[i];
+}
+let sumasarasas2 = 0;
+for(let i = 0; i < sarasas2.length; i++){
+    sumasarasas2 += sarasas2[i];
+}
+console.log(sumasarasas1);
+console.log(sumasarasas2);
+
+console.log('-----------------------')
+if (sumasarasas1 > sumasarasas2) {
+    console.log('pomidoras');
+} else{
+    console.log('bandyk dar karta')
+};
+console.log('-----------------------')
+if (sumasarasas1 < sumasarasas2) {
+    console.log('pomidoras')
+} else{
+    console.log('bandyk dar karta')
+};
+console.log('-----------------------')
+if (sumasarasas1 === sumasarasas2) {
+    console.log('pomidoras')
+} else{
+    console.log('bandyk dar karta')
+}
+console.log('-----------------------')
+if (sumasarasas1 !== sumasarasas2) {
+    console.log('pomidoras')
+} else{
+    console.log('bandyk dar karta')
+}
+console.log('-----------------------')
+if (sumasarasas1 >= sumasarasas2) {
+    console.log('pomidoras')
+} else{
+    console.log('bandyk dar karta')
+};
+console.log('-----------------------')
+if (sumasarasas1 <= sumasarasas2) {
+    console.log('pomidoras')
+} else{
+    console.log('bandyk dar karta')
+};
+console.log('-----------------------');
+
+// Ciklo for panaudojimas
+// Suskaičiuoti ką gausime susumavus skaičius intervale tarp (imtinai):
+
+let sumovita = 0;
+for (let i=0; i<0;i++){
+    sumovita += i;
+}
+
+let sumovita1 = 0;
+for (let i=0; i<4;i++){
+    sumovita1 += i;
+}
+console.log(sumovita1)
