@@ -210,14 +210,103 @@ console.log('-----------------------');
 
 // Ciklo for panaudojimas
 // Suskaičiuoti ką gausime susumavus skaičius intervale tarp (imtinai):
-
+//0.......0
 let sumovita = 0;
 for (let i=0; i<0;i++){
     sumovita += i;
 }
+console.log(sumovita)
 
+//0....4
 let sumovita1 = 0;
 for (let i=0; i<4;i++){
     sumovita1 += i;
 }
 console.log(sumovita1)
+
+//0.......100
+let sumovita2 = 0;
+for (let i=0; i<100;i++){
+    sumovita2 += i;
+}
+console.log(sumovita2)
+
+// 574 … 815
+let sumovita3 = 0;
+for (let i=574; i<815;i++){
+    sumovita3 += i;
+}
+console.log(sumovita3)
+
+//-50 … 50
+let sumovita4 = 0;
+for (let i=-50; i<50;i++){
+    sumovita4 += i;
+}
+console.log(sumovita4)
+
+//-70 … 30
+let sumovita5 = 0;
+for (let i=-70; i<30;i++){
+    sumovita5 += i;
+}
+console.log(sumovita5);
+
+console.log('______________')
+
+// pvz.: “abcdef” -> “fedcba” naudojam cikla
+
+const abc = ('abcdef');
+let newtext = '';
+const ilgis = abc.length
+for (let i = ilgis - 1; i >= 0; i--) {
+        newtext += abc[i];
+    }
+// otherWayRound += '.';
+console.log(newtext);
+
+// Suskaičiuoti, kiek nurodytame intervale yra skaičių, kurie dalijasi be liekanos iš 3, 5 ir 7 atskirai:
+
+let cyfra = null;
+for(i = 0; i < 11; i++){
+    if ((i % 3) === 0)  //rasome kas dalinasi per 5
+    cyfra++;
+}
+console.log(cyfra)
+
+let cyfra1 = 0;
+for(i = 0; i < 11; i++){
+if ((i % 5) === 0)  //rasome kas dalinasi per 3 5 7
+    cyfra1++;
+}
+console.log(cyfra1)
+
+let cyfra2 = 0;
+for(i = 0; i < 11; i++){
+if ((i % 7) === 0)  //rasome kas dalinasi per 3 5 7
+    cyfra2++;
+}
+console.log(cyfra2)
+
+const stringToNumber = '1234'
+const nr = +stringToNumber
+console.log(stringToNumber)
+console.log(nr)
+
+let number = 2;
+function simpleMultiplication(number) {
+    if(number % 2 == 0) {
+      return number*8}
+  else {
+      return number*9;
+  }}
+
+  let nr1 = 15;
+  function oddCount(nr1){
+    const numberEvens = 0;
+  for (let i = 0; i < oddCount.length; i++) {
+  if (oddCount[i] % 2 == 0) {
+  numberEvens++;
+  }
+  }}
+  
