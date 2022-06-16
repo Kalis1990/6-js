@@ -25,6 +25,7 @@
     "number-parsing": "nodemon ./js/number-parsing.js",
     "numberImport": "nodemon ./numberImport.js",
     "parsing": "nodemon ./js/parsing.js",
+    "ifValues": "nodemon ./js/ifValues.js",
     
     "test": "echo \"Error: no test specified\" && exit 1"
   },
