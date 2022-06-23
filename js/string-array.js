@@ -1,7 +1,7 @@
 console.clear();
 
 const str = 'Labas rytas Lietuva';
-const words = str.split(' ');
+const words = str.split(' ')
 const wordCount = words.length;
 console.log(words);
 console.log(wordCount);
