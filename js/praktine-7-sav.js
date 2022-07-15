@@ -67,5 +67,5 @@ function randomString(length) {
 }
 
 console.log(randomString(100));
-
+//praktine uzduotis
 
