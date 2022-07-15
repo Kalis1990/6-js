@@ -27,7 +27,7 @@ function numCount(n) {
     return size;
 }
 
-console.log(numCount(1), '->', 1);
+console.log(numCount(1,2,3,), '->', 1);
 console.log(numCount(5), '->', 1);
 console.log(numCount(69), '->', 2);
 console.log(numCount(58456298), '->', 8);

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev":"nodemon",
+    "praktine-7-sav": "nodemon ./js/praktine-7-sav.js",
     "number": "nodemon ./js/number.js",
     "destructuring": "nodemon ./js/destructuring.js",
     "multiArray": "nodemon ./js/multiArray.js",
